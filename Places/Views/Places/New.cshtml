@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset='utf-8'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  </head>
+  <body>
+    <h1>Places Form</h1>
+    <p>Enter information into the form below to document a place you've been!</p>
+    <form action="/places" method="post">
+      <div class="form-group">
+        <label for="cityName">What is the name of the city you want to add? :</label>
+        <input type="text" class="form-control" id="cityName" name="cityName">
+      </div>
+      <div class="form-group">
+        <label for="durationOfStay">How long did you stay? :</label>
+        <input type="text" class="form-control" id="durationOfStay" name="durationOfStay">
+      </div>
+      <div class="form-group">
+        <label for="travelPartners">Who did you travel with? :</label>
+        <input type="text" class="form-control" id="travelPartners" name="travelPartners">
+      </div>
+      <div class="form-group">
+        <label for="favoriteRestaurants">What were your favorite restaurants to eat at on your trip? :</label>
+        <input type="text" class="form-control" id="favoriteRestaurants" name="favoriteRestaurants">
+      </div>
+      <div class="form-group">
+        <label for="activities">What activities did you do on your trip? :</label>
+        <input type="text" class="form-control" id="activities" name="activities">
+      </div>
+      <button type="submit">Add your Place!</button>
+    </form>
+  </body>
+</html>
+
+
+
+

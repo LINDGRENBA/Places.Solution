@@ -1,0 +1,16 @@
+@using Places.Models;
+
+<h1>@Model.CityName Details:</h1>
+
+<ul>
+  <li>@Model.DurationOfStay</li>
+  <li>@Model.TravelPartners</li>
+  <li>@Model.FavoriteRestaurants</li>
+  <li>@Model.Activities</li>
+</ul>
+
+<form action="/places/delete" method="post">
+  <button type="submit" name="button">Delete this Place</button>
+</form>
+
+<a href="/places">Click here to view all of the Places in your list of trips</a>

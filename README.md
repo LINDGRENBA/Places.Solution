@@ -14,8 +14,9 @@ _Keep track of all the places you've been and memories you've created in this ni
 
 | Behavior   |   Input   |  Output |  Met? (Y/N)  |
 |----------|:-------------:|------:|-----------:|
-|  Program should create a `Place` object with property `cityName`  |  Bellingham  |  Place place1 = new Place() {cityName = Bellingham} | N |
-|  Program should access a `Place` object and its other properties  |  Bellingham  |  durationOfStay: x, travelPartner: x, favoriteRestaurants: x, activities: x | N |
+|  Program should create a `Place` object  |  n/a  |  Place place1 = new Place() {} | Y |
+|  Program should create a `Place` object with property `cityName`  |  Bellingham  |  Place place1 = new Place() {cityName = Bellingham} | Y |
+|  Program should access a `Place` object and its other properties  |  Bellingham  |  durationOfStay: x, travelPartners: x, favoriteRestaurants: x, activities: x | N |
 
 * May need to update camel case to Pascal case in spec examples above
 
@@ -23,7 +24,7 @@ _Keep track of all the places you've been and memories you've created in this ni
 ## Stretch Goals
 | Behavior   |   Input   |  Output |  Met? (Y/N)  |
 |----------|:-------------:|------:|-----------:|
-|  |  |  |  |
+| Change properties `travelPartners`, `favoriteRestaurants` & `activities` from strings to Lists | n/a | List<> | N |
 
 
 ## Setup/Installation Requirements

@@ -8,7 +8,7 @@ namespace Places.Models
 
     public Place(string cityName)
     {
-      // CityName = cityName;
+      CityName = cityName;
     }
   }
 }

@@ -7,6 +7,6 @@
 <ul>
   @foreach (Place place in Model)
   {
-    <li>@place.CityName</li>
+    <li><a href='/places/@place.Id'>@place.CityName</a></li>
   }
 </ul>

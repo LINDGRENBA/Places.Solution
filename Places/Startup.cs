@@ -36,7 +36,7 @@ namespace Places
 
       app.Run(async (context) =>
         {
-          await context.Response.WriteAsync("You don't have any routes yet!");
+          await context.Response.WriteAsync("Something went wrong!");
         });
 
     }

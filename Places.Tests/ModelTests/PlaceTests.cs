@@ -9,7 +9,7 @@ namespace Places.Tests
     [TestMethod]
     public void PlaceConstructor_CreatesInstanceofPlace_Place()
     {
-      Place newPlace = new Place("teststring");
+      Place newPlace = new Place("teststring", "teststring", "teststring", "teststring", "teststring");
       Assert.AreEqual(typeof(Place), newPlace.GetType());
     }
 
@@ -17,7 +17,7 @@ namespace Places.Tests
     public void GetCityName_ReturnsCityName_String()
     {
       string cityName = "Bellingham";
-      Place newPlace = new Place(cityName);
+      Place newPlace = new Place(cityName, "teststring", "teststring", "teststring", "teststring");
       string result = newPlace.CityName;
       Assert.AreEqual(cityName, result);
     }

@@ -14,7 +14,7 @@ _Keep track of all the places you've been and memories you've created in this ni
 
 | Behavior   |   Input   |  Output |  Met? (Y/N)  |
 |----------|:-------------:|------:|-----------:|
-|  Program should create a `Place` object  |  n/a  |  Place place1 = new Place() {} | N |
+|  Program should create a `Place` object  |  n/a  |  Place place1 = new Place() {} | Y |
 |  Program should create a `Place` object with property `cityName`  |  Bellingham  |  Place place1 = new Place() {cityName = Bellingham} | N |
 |  Program should access a `Place` object and its other properties  |  Bellingham  |  durationOfStay: x, travelPartner: x, favoriteRestaurants: x, activities: x | N |
 

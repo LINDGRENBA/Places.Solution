@@ -2,7 +2,7 @@ using System.Collections.Generic;
 
 namespace Places.Models
 {
-  public class Places
+  public class Place
   {
     // code will go here
   }
